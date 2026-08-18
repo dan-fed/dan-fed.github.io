@@ -95,6 +95,22 @@ h3 {
 
 .abstract {
   margin: 0;
+}
+
+.abstract summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.9rem;
+  user-select: none;
+  width: fit-content;
+}
+
+.abstract summary:hover {
+  color: var(--fg);
+}
+
+.abstract p {
+  margin: 0.7rem 0 0;
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.65;
