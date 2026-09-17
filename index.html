@@ -19,29 +19,20 @@
     <h2>Papers</h2>
 
     <article class="paper">
-      <h3>Summary Indices in Treatment Effect Estimation: When Are They Useful?</h3>
+      <h3>Summary Indices in Treatment Effect Estimation</h3>
       <p class="paper-links"><a href="summary-indices/JMP.pdf">PDF</a></p>
       <details class="abstract">
         <summary>Abstract</summary>
         <p>
-          The paper examines the common practice of combining multiple outcomes into a summary index to
-          estimate a causal effect. For a common class of IV-like estimators, such estimates represent a
-          weighted average of component-level effects, yet the weights are implicit in the construction
-          procedures and are never reported. These weights are derived and analyzed: they can be negative
-          and unrestricted in magnitude. In fact, in a one-factor model, negative weights arise naturally for
-          components of the summary index more strongly associated with the underlying concept. The
-          asymptotic distribution of the estimates is established. Conventionally reported confidence intervals
-          can be invalid because they do not account for data-dependent construction of the summary index,
-          yet the corrections are likely to be small in real applications. Since none of the commonly used
-          summary index procedures incorporate the sources of variability relevant to the estimator&rsquo;s
-          variance, the resulting estimates do not generally exhibit the high power often attributed to them.
-          Yet, in a simple RCT-like scenario with homoskedasticity and a small treatment effect, it is possible
-          to unambiguously rank the summary indices studied here by the mean squared error of the
-          difference-in-means estimates. Data from three recent empirical studies illustrate the theoretical
-          results. Estimating the causal effect on some summary indices can be useful as it provides a quick
-          way of computing an average effect on the components of the index. Beyond this, the results provide
-          no compelling reason to use summary indices. For serious empirical conclusions, analyzing and
-          reporting effects on individual components is recommended.
+          This paper studies the practice of combining multiple outcomes into a summary index to estimate a
+          causal effect. For common estimators and index constructions, the estimate equals a weighted sum of
+          the estimated effects on the components, with weights that are implicit and rarely reported. The paper
+          derives the weights and shows that, for inverse-covariance-weighted indices, they can be negative and
+          unrestricted in magnitude, so the index effect can have the opposite sign to every component effect. The
+          paper proposes two procedures for valid inference on the index effect: a variance estimator that accounts
+          for the data-dependent weights, and a shifted <i>t</i>-test that requires no such correction. Conventional <i>t</i>-tests
+          of the null of no effect remain valid. Contrary to common claims, summary indices do not generally
+          improve power. Three published studies illustrate the results.
         </p>
       </details>
     </article>
